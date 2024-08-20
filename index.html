@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Marília C. - Psiquiatra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+     
+        <div class="header">
+            <a href="#default" class="logo"> Dra. Marília Calcia</a>
+            <div class="header-right">
+              <a class="active" href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#article">Artigos</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+
+
+    </header>
+
+    
+    <section id="home">
+        
+        <img src="img/mariliacalcia.jpeg" alt="Image of Marília Calcia" id="mariliac">
+        <p>Cuidados psiquiátricos para melhorar sua qualidade de vida</p>
+        <a href="#contato" class="cta-button">Agende uma consulta</a>
+    </section>
+
+
+
+
+
+    <section id="especialidades">
+        <h2>Especialidades</h2>
+        <div class="quadrante">
+            <div class="especialidade">
+                <h3>Depressão</h3>
+                <p>Tratamento especializado para depressão.</p>
+            </div>
+            <div class="especialidade">
+                <h3>Ansiedade</h3>
+                <p>Abordagem integrada para controle da ansiedade.</p>
+            </div>
+            <div class="especialidade">
+                <h3>Diabetes</h3>
+                <p>Abordagem voltada para a saúde mental.</p>
+            </div>
+            <div class="especialidade">
+                <h3> Violência Doméstica</h3>
+                <p>Sessões para vítimas de violência doméstica.</p>
+            </div>
+           
+        </div>
+
+        <section id="about">
+            <h2>Sobre a Dra. Marília C.</h2>
+            <p>Olá, sou a Dra Marília Calcia, psiquiatra membro do Royal College of Psychiatrists e registrada no General Medical Council - UK como especlista em psqiquiatria geral de adultos.</p>
+            <p>Sou psiquiatra supervisora no serviço de emergências psiquiatras e interconsultas ( atendimento psiquiatrico ao paciente internado em hospital geral) e no ambulatório de diabetes do King's Colege Hospital, em Londres, e também atendo em contltório particular online e presencial.  </p>
+        </section>
+
+        <div class="atendimento">
+            <h2>Como ser atendido</h2>
+            <ul>
+                <li><strong>Teleconsulta:</strong> Realize uma consulta online via videochamada.</li>
+                <li><strong>Atendimento na Clínica Messina:</strong> Oferecemos atendimento para casos específicos.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="article">
+        <h2>Artigos</h2>
+        <div class="article-list">
+            <article>
+                <h3>O impacto da saúde mental no bem-estar geral</h3>
+                <p>Descubra como a saúde mental afeta sua vida diária.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Estratégias para lidar com a ansiedade</h3>
+                <p>Dicas práticas para controlar a ansiedade.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </div>
+    </section>
+    
+    <section>
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./img/1.png" style="width:100%">
+    <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./img/2.png" style="width:100%">
+    <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./img/3.png" style="width:100%">
+    <div class="text">Caption Three</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+</section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensanger">Mensagem:</label>
+            <textarea id="mensanger" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dra. Marília C. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
